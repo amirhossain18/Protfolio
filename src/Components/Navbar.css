@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Audiowide&family=Big+Shoulders+Inline+Display&family=Black+Ops+One&family=Fugaz+One&family=Monoton&display=swap');
+
+body{
+
+    font-family: 'Akaya Kanadaka', cursive;
+font-family: 'Audiowide', cursive;
+font-family: 'Big Shoulders Inline Display', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Fugaz One', cursive;
+font-family: 'Monoton', cursive
+}
+:root{
+    --primary-white: #fff;
+    --primary-orange: #f9ab00;
+    --primary-dark: rgba(31, 28, 28, 0.253);
+    --primary-pink: rgba(37, 13, 170, 0.959);
+
+}
+div#navbarSupportedContent {
+    margin-left: 20%;
+    margin-right: 45%;
+}
+nav a.nav-link {
+    letter-spacing: 0.0750rem;
+    cursor: pointer;
+}
+.navbar-nav > li > a {
+    color: var(--primary-white)!important;
+}
+
+.navbar-nav > li > a{
+    margin-right: 0.50rem;
+    margin-left: 0.50rem;
+    color: var(--primary-white)!important;
+    border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+    border-top: 0.1875rem solid var(--primary-orange);
+}
+.navbar-nav > li > a:hover{
+    border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar-brand img{
+  
+        height: 70px;
+        width: 150px;
+  
+} 
